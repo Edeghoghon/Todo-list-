@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+
+  <!-- <ul>
+    <li>"new" - Add a Todo</li>
+    <li>"list" - List all Todo</li>
+    <li>"delete" - Remove Specific todo</li>
+    <li>"quit" - Quit App</li>
+  </ul> -->
+  <div class="container">
+    <div class="todo-app">
+      <h2>To-Do-List <img src ="list-img.png" alt="list"></h2>
+      <div class="row">
+        <input  type ="text" id="input-box" placeholder="Add a task">
+        <button onclick="addTask()">Add</button>
+      </div>
+      <ul id="list-container">
+        <!-- <li class="checked">Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li> -->
+      </ul>
+    </div>
+
+  </div>
+ 
+  <script src="app.js"></script>
+</body>
+</html> 
